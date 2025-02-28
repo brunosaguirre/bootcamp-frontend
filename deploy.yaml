@@ -15,7 +15,7 @@ spec:
       serviceAccountName: cloudmart-sa
       containers:
       - name: cloudmart-frontend-app
-        image: public.ecr.aws/g2t6q3h2/cloudmart/frontend:v3 
+        image: CONTAINER_IMAGE
 ---
 
 apiVersion: v1
